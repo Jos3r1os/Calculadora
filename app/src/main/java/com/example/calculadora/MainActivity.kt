@@ -38,8 +38,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         formatoDecimal = DecimalFormat("#.#########")
-        resultadoTemporal = findViewById(R.id.resultadoTemporal) // corregido
-        resultadoFinal = findViewById(R.id.resultadoFinal)       // corregido
+        resultadoTemporal = findViewById(R.id.resultadoTemporal)
     }
 
     fun agregarNumero(b : View){
@@ -71,7 +70,7 @@ class MainActivity : AppCompatActivity() {
         if(boton.text.toString().trim() == "+"){
             operacionActual = suma
         }
-        if(boton.text.toString().trim() == "-"){  // corregido
+        if(boton.text.toString().trim() == "-"){
             operacionActual = resta
         }
 
